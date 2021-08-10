@@ -1,3 +1,7 @@
+# babel compile
+dist/
+
+
 # Logs
 logs
 *.log

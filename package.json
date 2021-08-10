@@ -1,0 +1,31 @@
+{
+  "name": "hel-checkers",
+  "version": "0.0.1",
+  "description": "node api to play checkers",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel ./src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriy-grablyov/hel-checkers.git"
+  },
+  "keywords": [
+    "checkers"
+  ],
+  "author": "hel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmitriy-grablyov/hel-checkers/issues"
+  },
+  "homepage": "https://github.com/dmitriy-grablyov/hel-checkers#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "eslint": "^7.32.0"
+  }
+}
