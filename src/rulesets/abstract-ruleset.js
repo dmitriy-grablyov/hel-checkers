@@ -1,5 +1,3 @@
-import NotImplementedError from '../errors/not-implemented-error';
-
 class AbstractRuleset {
 
     /** 
@@ -7,7 +5,7 @@ class AbstractRuleset {
      * @type {number}
      */
     get width() {
-        throw new NotImplementedError(`${this.constructor.name} ruleset must define board width`);
+        return undefined;
     }
 
     /** 
@@ -15,7 +13,7 @@ class AbstractRuleset {
      * @type {number}
      */
     get height() {
-        throw new NotImplementedError(`${this.constructor.name} ruleset must define board height`);
+        return undefined;
     }
 }
 

@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "lint": "eslint ./src",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest ./src",
     "babel": "babel ./src --out-dir dist"
   },
   "repository": {
@@ -26,6 +26,8 @@
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
-    "eslint": "^7.32.0"
+    "eslint": "^7.32.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "jest": "^27.0.6"
   }
 }
